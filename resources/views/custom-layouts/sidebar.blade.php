@@ -14,6 +14,8 @@
                     <span>Dashboard</span>
                 </a>
             </li>
+            <li class=""><a class="nav-link" href="{{route('record-submit')}}"><i data-feather="layout"></i>Dolil Store</a></li>
+            <li class=""><a class="nav-link" href="{{route('record-list')}}"><i data-feather="layout"></i>Dolil List</a></li>
 
 
 

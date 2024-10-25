@@ -17,9 +17,9 @@ return new class extends Migration
             $table->string('daag_number')->nullable();
             $table->string('mouja')->nullable();
             $table->string('khotian')->nullable();
-            $table->string('buyer')->nullable();
-            $table->string('seller')->nullable();
-            $table->string('google_link')->nullable();
+            $table->string('buyer_name')->nullable();
+            $table->string('seller_name')->nullable();
+            $table->string('google_file_upload')->nullable();
             $table->timestamps();
         });
     }

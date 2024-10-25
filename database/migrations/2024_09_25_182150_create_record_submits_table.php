@@ -19,6 +19,7 @@ return new class extends Migration
             $table->string('address')->nullable();
             $table->timestamp('datetime')->nullable();
             $table->string('givenBy')->nullable();
+            $table->longText('photos')->nullable();
             $table->timestamps();
         });
     }
